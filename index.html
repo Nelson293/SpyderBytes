@@ -111,61 +111,82 @@
 </section>
 
 <!-- Brands We Use Section -->
-<section>
+<section class="brands-section">
   <div class="divider-container">
     <div class="divider-line"></div>
     <div class="divider-text">Brands we use</div>
     <div class="divider-line"></div>
   </div>
 
-  <div class="carousel" role="region" aria-label="Gaming brand logos carousel">
+  <div class="carousel-wrapper">
     <div class="carousel-track">
-      <div class="carousel-item" data-name="Razer">
-        <img src="https://cdn.worldvectorlogo.com/logos/razer.svg" alt="Razer gaming peripherals and laptops">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Razer_Logo.png" alt="Razer">
       </div>
-      <div class="carousel-item" data-name="Nvidia">
-        <img src="https://download.logo.wine/logo/Nvidia/Nvidia-Logo.wine.png" alt="Nvidia graphics cards and technology">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/2/21/Nvidia_logo.svg/2560px-Nvidia_logo.svg.png" alt="Nvidia">
       </div>
-      <div class="carousel-item" data-name="Corsair">
-        <img src="https://cwsmgmt.corsair.com/press/CORSAIRLogo2020_stack_W.png" alt="Corsair gaming peripherals and components">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Corsair_logo.png" alt="Corsair">
       </div>
-      <div class="carousel-item" data-name="MSI">
-        <img src="https://logos-world.net/wp-content/uploads/2020/11/MSI-Logo-2019-present.png" alt="MSI gaming laptops and components">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/MSI_Logo_2020.svg/2560px-MSI_Logo_2020.svg.png" alt="MSI">
       </div>
-      <div class="carousel-item" data-name="Intel">
-        <img src="https://logos-world.net/wp-content/uploads/2021/09/Intel-Logo-2006-2020-700x394.png" alt="Intel processors and technology">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Intel_Core_i9_Logo.svg/512px-Intel_Core_i9_Logo.svg.png" alt="Intel">
       </div>
-      <div class="carousel-item" data-name="AMD Ryzen">
-        <img src="https://logodix.com/logo/922977.png" alt="AMD Ryzen processors">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Ryzen_Logo.svg/2560px-AMD_Ryzen_Logo.svg.png" alt="AMD Ryzen">
       </div>
-      <div class="carousel-item" data-name="ROG">
-        <img src="https://press.asus.com/assets/w_4035,h_3474/4a83deef-f73a-44e9-a9d6-1ae062de6fb9/ROG%20logo_red.png" alt="ASUS Republic of Gamers">
-      </div>
-      
-      <!-- Duplicate items for smooth scrolling -->
-      <div class="carousel-item" data-name="Razer">
-        <img src="https://cdn.worldvectorlogo.com/logos/razer.svg" alt="Razer gaming peripherals and laptops">
-      </div>
-      <div class="carousel-item" data-name="Nvidia">
-        <img src="https://download.logo.wine/logo/Nvidia/Nvidia-Logo.wine.png" alt="Nvidia graphics cards and technology">
-      </div>
-      <div class="carousel-item" data-name="Corsair">
-        <img src="https://cwsmgmt.corsair.com/press/CORSAIRLogo2020_stack_W.png" alt="Corsair gaming peripherals and components">
-      </div>
-      <div class="carousel-item" data-name="MSI">
-        <img src="https://logos-world.net/wp-content/uploads/2020/11/MSI-Logo-2019-present.png" alt="MSI gaming laptops and components">
-      </div>
-      <div class="carousel-item" data-name="Intel">
-        <img src="https://logos-world.net/wp-content/uploads/2021/09/Intel-Logo-2006-2020-700x394.png" alt="Intel processors and technology">
-      </div>
-      <div class="carousel-item" data-name="AMD Ryzen">
-        <img src="https://logodix.com/logo/922977.png" alt="AMD Ryzen processors">
-      </div>
-      <div class="carousel-item" data-name="ROG">
-        <img src="https://press.asus.com/assets/w_4035,h_3474/4a83deef-f73a-44e9-a9d6-1ae062de6fb9/ROG%20logo_red.png" alt="ASUS Republic of Gamers">
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Republic_of_Gamers_logo.png" alt="ROG">
       </div>
     </div>
   </div>
+</section>
+
+<style>
+  .brands-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .divider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .divider-line {
+    width: 30%;
+    height: 2px;
+    background-color: gray;
+  }
+  .divider-text {
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .carousel-track {
+    display: flex;
+    gap: 20px;
+    animation: scroll 10s linear infinite;
+  }
+  .carousel-item img {
+    width: 120px;
+    height: auto;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+</style>
 </section>
 <section class="bg-primary-3 pt-0 has-divider">
   <div class="container">
