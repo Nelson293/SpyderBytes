@@ -1,12 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- 
-  DOCUMENT STRUCTURE AND HEAD SECTION
-  This section contains basic HTML structure, metadata, SEO tags, 
-  font loading, favicon links, and CSS references
--->
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="utf-8">
+  <!-- Custom background styling -->
+  <style>
+    html, body {
+      background-color: #1a2639; /* Dark blue background color */
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    /* Make sure all content sections have the same background */
+    section, .navbar-container, .container, .carousel, .divider-container, footer {
+      background-color: #1a2639 !important;
+    }
+
+    /* Override any other background styling */
+    .bg-primary-3 {
+      background-color: #1a2639 !important;
+    }
+    
+    /* Ensure text is readable on dark background */
+    h1, h2, h3, h4, h5, h6, p, .lead, .nav-link, small {
+      color: #ffffff !important;
+    }
+  </style>
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Custom PC Genie</title>
