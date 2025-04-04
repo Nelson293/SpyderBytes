@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+  DOCUMENT STRUCTURE AND HEAD SECTION
+  This section contains basic HTML structure, metadata, SEO tags, 
+  font loading, favicon links, and CSS references
+-->
 <head>
   <meta charset="utf-8">
 
@@ -30,8 +35,7 @@
 <link rel="preload" as="font" href="/assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
 
 
-
-<!-- favicon -->
+<!-- favicon links for various devices and sizes -->
 <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -59,6 +63,11 @@
 </head>
 
 <body>
+  <!-- 
+    NAVIGATION BAR
+    This section creates the top navigation menu with logo, responsive toggle, 
+    service links and contact button
+  -->
   <div class="navbar-container bg-primary-3">
     <nav class="navbar navbar-expand-lg navbar-dark border-bottom-0 bg-primary-3" data-sticky="top">
       <div class="container">
@@ -95,6 +104,10 @@
     </nav>
   </div>
 
+  <!-- 
+    HERO SECTION
+    Main banner with headline text and decorative elements
+  -->
   <section class="bg-primary-3 o-hidden">
     <div class="container layer-1">
       <div class="row justify-content-center text-center align-items-center">
@@ -115,6 +128,10 @@
     </div>
   </section>
 
+  <!-- 
+    INTRODUCTION SECTION
+    Video and introductory text about professional PC building
+  -->
 <section class="bg-primary-3 pt-0 text-light">
   <div class="container">
     <div class="row justify-content-between align-items-center">
@@ -133,6 +150,10 @@
   </div>
 </section>
 
+  <!-- 
+    KEY SELLING POINTS
+    Emphasizes expertise with three card elements highlighting service benefits
+  -->
   <section class="bg-primary-3 pt-0 has-divider">
     <div class="container">
       <div class="row mb-4 text-light">
@@ -181,6 +202,10 @@
     </div>
   </section>
       
+  <!-- 
+    OCCASION-BASED PC BUILDS
+    Showcases specific PC build services for different occasions with image cards
+  -->
   <section class="container">
     <div class="container">
       <div class="row mb-4">
@@ -211,6 +236,10 @@
     </div>
   </section>
 
+  <!-- 
+    TARGET AUDIENCE SECTION
+    Identifies primary customer segments with icons and descriptions
+  -->
   <section>
     <div class="container">
       <div class="row mb-4 text-center">
@@ -244,6 +273,10 @@
     </div>
   </section>
 
+  <!-- 
+    PORTFOLIO GALLERY
+    Grid of images showing completed PC builds with lightbox functionality
+  -->
   <section>
     <div class="container">
       <div class="row justify-content-center">
@@ -383,6 +416,10 @@
     </div>
   </section>
 
+  <!-- 
+    CALL TO ACTION SECTION
+    Promotional section with animated typing effect and Instagram link
+  -->
   <section class="has-divider bg-primary-3 text-light">
     <div class="divider flip-y">
       <img src="images/divider-2.svg" alt="graphical divider" data-inject-svg="">
@@ -407,6 +444,521 @@
     </div>
   </section>
 
+  <!-- 
+    FAQ SECTION
+    Addresses common customer questions with collapsible accordion panels
+  -->
+  <section class="bg-primary-3 pt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-9">
+          <h3 class="h2 text-light">Your custom PC build questions answered</h3>
+          <div class="my-4" itemscope="" itemtype="https://schema.org/FAQPage">
+            <div class="card mb-2 card-sm card-body hover-shadow-sm" data-aos="fade-up" data-aos-delay="100" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <div data-target="#panel-1" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+                <span class="h6 mb-0" itemprop="name">Can I buy the parts, and then you build my PC?</span>
+                <img class="icon" src="images/plus.svg" alt="plus interface icon" data-inject-svg="">
+              </div>
+              <div class="collapse" id="panel-1">
+                <div class="pt-3" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p class="mb-0" itemprop="text">
+                    Of course, you can. If you want to do your research into compatibility and then buy all the components yourself, that's fine. You can then drop it all off at our HQ in 24 High St, Bagshot, GU19 5AA, for an assembly.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 card-sm card-body hover-shadow-sm" data-aos="fade-up" data-aos-delay="200" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <div data-target="#panel-2" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-2">
+                <span class="h6 mb-0" itemprop="name">Do you build gaming PCs for kids?</span>
+                <img class="icon" src="images/plus.svg" alt="plus interface icon" data-inject-svg="">
+              </div>
+              <div class="collapse" id="panel-2">
+                <div class="pt-3" itemscope=""<div class="pt-3" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p class="mb-0" itemprop="text">
+                    We build custom PC gaming systems for kids, teenagers and adults.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 card-sm card-body hover-shadow-sm" data-aos="fade-up" data-aos-delay="300" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <div data-target="#panel-3" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-3">
+                <span class="h6 mb-0" itemprop="name">How long does it take for you to build my PC?</span>
+                <img class="icon" src="images/plus.svg" alt="plus interface icon" data-inject-svg="">
+              </div>
+              <div class="collapse" id="panel-3">
+                <div class="pt-3" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p class="mb-0" itemprop="text">
+                    Once we have all the parts, it takes on average 48 hours to build and assemble your gaming PC.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 card-sm card-body hover-shadow-sm" data-aos="fade-up" data-aos-delay="400" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <div data-target="#panel-4" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-4">
+                <span class="h6 mb-0" itemprop="name">Do you offer prebuilt PCs for different budgets?</span>
+                <img class="icon" src="images/plus.svg" alt="plus interface icon" data-inject-svg="">
+              </div>
+              <div class="collapse" id="panel-4">
+                <div class="pt-3" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p class="mb-0" itemprop="text">
+                    Yes, as well as offering built to spec computers, we also stock a number of pre-built and ready to buy computers that you can collect same day. <a href="/contact/">Contact us</a> and ask for more details.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2 card-sm card-body hover-shadow-sm" data-aos="fade-up" data-aos-delay="500" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+              <div data-target="#panel-5" class="accordion-panel-title" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-5">
+                <span class="h6 mb-0" itemprop="name">How do I pay for my custom build PC?</span>
+                <img<!DOCTYPE html>
+<html lang="en">
+<!-- 
+  DOCUMENT STRUCTURE AND HEAD SECTION
+  This section contains basic HTML structure, metadata, SEO tags, 
+  font loading, favicon links, and CSS references
+-->
+<head>
+  <meta charset="utf-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Custom PC Genie</title>
+<meta name="generator" content="Jekyll v4.3.1">
+<meta property="og:title" content="Gaming PC build service">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Building and assembling high-end gaming PCs in Fleet, Guildford, Woking, Camberley, Aldershot">
+<meta property="og:description" content="Building and assembling high-end gaming PCs in Fleet, Guildford, Woking, Camberley, Aldershot">
+<link rel="canonical" href="https://custompcgenie.co.uk/">
+<meta property="og:url" content="https://custompcgenie.co.uk/">
+<meta property="og:site_name" content="Custom PC Genie">
+<meta property="og:image" content="images/custompcgenie-og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://custompcgenie.co.uk/assets/img/og-images/custompcgenie-og.png">
+<meta property="twitter:title" content="Gaming PC build service">
+<meta name="twitter:site" content="@custompcgenie">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Building and assembling high-end gaming PCs in Fleet, Guildford, Woking, Camberley, Aldershot","headline":"Gaming PC build service","image":"https://custompcgenie.co.uk/assets/img/og-images/custompcgenie-og.png","name":"Custom PC Genie","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://custompcgenie.co.uk/img/logo-blue.png"}},"url":"https://custompcgenie.co.uk/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/theme-cryptocurrency.css" rel="stylesheet" type="text/css" media="all">
+<link rel="preload" as="font" href="/assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="/assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
+
+
+<!-- favicon links for various devices and sizes -->
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Cookie consent -->
+<link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css">
+
+<!-- share this -->
+<script type="text/javascript" src="js/sharethis.js#property=61927c2a51ba2400197f4c46&product=sop" async="async"></script>
+
+</head>
+
+<body>
+  <!-- 
+    NAVIGATION BAR
+    This section creates the top navigation menu with logo, responsive toggle, 
+    service links and contact button
+  -->
+  <div class="navbar-container bg-primary-3">
+    <nav class="navbar navbar-expand-lg navbar-dark border-bottom-0 bg-primary-3" data-sticky="top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="images/logo.svg" alt="Custom PC Genie">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <img class="icon navbar-toggler-open" src="images/menu.svg" alt="menu interface icon" data-inject-svg="">
+          <img class="icon navbar-toggler-close" src="images/cross.svg" alt="cross interface icon" data-inject-svg="">
+        </button>
+        <div class="collapse navbar-collapse justify-content-end">
+          <div class="py-2 py-lg-0">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="/services/build/" class="nav-link dropdown-toggle " data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Build</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="/services/upgrade/" class="nav-link dropdown-toggle " data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Upgrade</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="/services/repair/" class="nav-link dropdown-toggle " data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Repair</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="/services/maintenance/" class="nav-link dropdown-toggle " data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Maintenance</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="/customer-stories/" class="nav-link dropdown-toggle " data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Customers</a>
+              </li>
+            </ul>
+          </div>
+          <a href="/contact/" class="btn btn-primary ml-lg-3">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- 
+    HERO SECTION
+    Main banner with headline text and decorative elements
+  -->
+  <section class="bg-primary-3 o-hidden">
+    <div class="container layer-1">
+      <div class="row justify-content-center text-center align-items-center">
+        <div class="col-xl-6 col-md-6 text-light text-center">
+          <!--<div class="d-flex mb-4">
+            <span class="badge badge-primary mr-2">News</span>
+            <a href="#" class="text-small hover-arrow">Announce a feature of your company</a>
+          </div>-->
+          <h1 class="display-4">Let's build your dream gaming PC</h1>
+          <p class="lead">Building ready-to-play, high-end gaming PCs for streamers and competitive gamers.</p>
+        </div>
+      </div>
+    </div>
+    <div class="decoration-wrapper d-none d-md-block">
+      <div class="decoration top right scale-4">
+        <img class="bg-primary" src="images/deco-blob-10.svg" alt="deco-blob-2 decoration" data-inject-svg="">
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+    INTRODUCTION SECTION
+    Video and introductory text about professional PC building
+  -->
+<section class="bg-primary-3 pt-0 text-light">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <video src="images/mainpc.mp4" autoplay loop muted playsinline class="img-fluid" style="width: 100%; height: auto;"></video>
+        <div class="decoration top left scale-2">
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5" data-aos="fade">
+        <h2 class="h1">Built by professionals</h2>
+        <p class="lead">
+          When an inexperienced builder assembles your custom gaming PC, it can seriously impact your gameplay. We've been in that situation too! Time and time again, we hear stories like, "I bought this graphics card from Currys PC World, but I still can't run my games."
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- 
+    KEY SELLING POINTS
+    Emphasizes expertise with three card elements highlighting service benefits
+  -->
+  <section class="bg-primary-3 pt-0 has-divider">
+    <div class="container">
+      <div class="row mb-4 text-light">
+        <div class="col">
+          <h2 class="h1">You need a PC builder with the expertise to do it right.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+          <div class="card card-body">
+            <div class="flex-grow-1">
+              <div class="h3">We Only use new parts</div>
+              <p>
+                Custom SpyderBytes gaming PCs are assembled with entirely new components, carefully sourced from reliable and vetted UK-based suppliers..
+              </p>
+            </div>
+            <!--<a href="#" class="hover-arrow">Learn More</a>-->
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="card card-body">
+            <div class="flex-grow-1">
+              <div class="h3">Compatibility checked</div>
+              <p>
+                When we build your custom gaming PC, we ensure all components are fully compatible, reducing bottlenecks for optimal performance.
+              </p>
+            </div>
+            <!--<a href="#" class="hover-arrow">Learn More</a>-->
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+          <div class="card card-body">
+            <div class="flex-grow-1">
+              <div class="h3">Balanced system</div>
+              <p>
+                There's no sense in investing in a custom-built gaming PC if the GPU can't reach its full potential due to an unbalanced setup.
+              </p>
+            </div>
+            <!--<a href="#" class="hover-arrow">Learn More</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider">
+      <img src="images/divider-3.svg" alt="graphical divider" data-inject-svg="">
+    </div>
+  </section>
+      
+  <!-- 
+    OCCASION-BASED PC BUILDS
+    Showcases specific PC build services for different occasions with image cards
+  -->
+  <section class="container">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h3 class="h1">Building gaming PCs in Aldershot for any occassion</h3>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md" data-aos="fade-up" data-aos-delay="100">
+          <a href="/products/birthday-pc-build/" class="card position-relative text-light border-0 d-flex justify-content-end overlay">
+            <img src="images/birthday-pc-build.jpg" alt="Image" class="rounded">
+            <div class="position-absolute p-3">
+              <h3 class="mb-0">Birthday PC builds</h3>
+              <span>The best birthday present</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md" data-aos="fade-up" data-aos-delay="300">
+          <a href="/products/christmas-pc-build/" class="card position-relative text-light border-0 d-flex justify-content-end overlay">
+            <img src="images/christmas-pc-build.jpg" alt="Image" class="rounded">
+            <div class="position-absolute p-3">
+              <h3 class="mb-0">Christmas PC builds</h3>
+              <span>Christmas to remember</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+    TARGET AUDIENCE SECTION
+    Identifies primary customer segments with icons and descriptions
+  -->
+  <section>
+    <div class="container">
+      <div class="row mb-4 text-center">
+        <div class="col">
+          <h2 class="h1">When performance matters to you the most</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon-round bg-primary mx-auto mb-4">
+            <img class="icon bg-primary" src="images/lte-1.svg" alt="icon" data-inject-svg="">
+          </div>
+          <h4>For gamers</h4>
+          <p class="lead mx-xl-3">If you love playing games in your free time or you are a competitive gamer.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-round bg-primary mx-auto mb-4">
+            <img class="icon bg-primary" src="images/mic.svg" alt="icon" data-inject-svg="">
+          </div>
+          <h4>For streamers</h4>
+          <p class="lead mx-xl-3">If you want to stream your gameplay on Twitch or social media.</p>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-round bg-primary mx-auto mb-4">
+            <img class="icon bg-primary" src="images/youtube.svg" alt="icon" data-inject-svg="">
+          </div>
+          <h4>For YouTubers</h4>
+          <p class="lead mx-xl-3">If you want to use your custom built gaming PC for video editing, not just playing games.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+    PORTFOLIO GALLERY
+    Grid of images showing completed PC builds with lightbox functionality
+  -->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h2 class="text-center pb-3">Gaming PCs we built, repaired or upgraded</h2>
+          <div class="row" data-isotope-collection="" data-isotope-id="example-1">
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/article-3.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/article-3.jpg">
+                </a>
+              </div>
+            </div>
+
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds//pcbuild-20.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-20.jpg" alt="New case with red lights">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-19.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-19.jpg" alt="Watercooling CPU block detail">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-18.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-18.jpg" alt="200mm front fans for better airflow">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-22.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-22.jpg" alt="Watercooling block with three fans assembly">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-23.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-23.jpg" alt="New gaming PC for Archie">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-24.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-24.jpg" alt="Watercooling computer for Rob">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-4.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-4.jpg" alt="White Corsair case with 10x RGB fans and a plenty of space for watercooling">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-5.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-5.jpg" alt="Three RGB LED hubs all connected and working">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-6.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-6.jpg" alt="Upgraded gaming computer for Henry">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/customer-stories/dylan-from-farnborough/dylan-slider-3.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/dylan-slider-3.jpg" alt="Gaming computer assembly for Dylan">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-2.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-2.jpg" alt="Vera is adding new i5 to the game build">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-3.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-3.jpg" alt="Spectacular RGB setup in a white Corsair case">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/pc-builds/pcbuild-1.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/pcbuild-1.jpg" alt="New gaming PC parts delivered to our office">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/customer-stories/adam-from-aldershot/adam-slider-6.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/adam-slider-6.jpg" alt="New computer case assembly">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/customer-stories/lee-from-aldershot/lee-1.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/lee-1.jpg" alt="Gaming PC ready for testing">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/customer-stories/dylan-from-farnborough/dylan-specs.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/dylan-specs.jpg" alt="White gaming PC with RTX 3060">
+                </a>
+              </div>
+            </div>
+            <div data-isotope-item="" class="col-4">
+              <div class="card">
+                <a href="/assets/img/customer-stories/daniel-from-blackwater/daniel-1.jpg" data-fancybox="computergallery">
+                <img class="rounded" src="images/daniel-1.jpg" alt="White gaming PC with RTX 3060">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+    CALL TO ACTION SECTION
+    Promotional section with animated typing effect and Instagram link
+  -->
+  <section class="has-divider bg-primary-3 text-light">
+    <div class="divider flip-y">
+      <img src="images/divider-2.svg" alt="graphical divider" data-inject-svg="">
+    </div>
+    <div class="container" data-aos="fade-up">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-md-5">
+          <img src="images/custom-gaming-pc.png" alt="Computer assembly service">
+        </div>
+        <div class="col-xl-5 col-md-6">
+          <div class="h1">
+            <div>Let's build you</div>
+            <span>a</span>
+            <div class="highlight">
+              <span data-typed-text="" data-loop="true" data-type-speed="65" data-strings='["high-end gaming PC","corsair PC","4k PC","1440p PC","asus PC","rgb PC"]'></span>
+            </div>
+          </div>
+          <p class="lead">Follow us on Instagram for our latest and coolest gaming PC build showcases.</p>
+          <a href="https://www.instagram.com/CustomPCGenie/" class="lead" target="_blank">@CustomPCGenie</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+    FAQ SECTION
+    Addresses common customer questions with collapsible accordion panels
+  -->
   <section class="bg-primary-3 pt-0">
     <div class="container">
       <div class="row justify-content-center">
@@ -486,6 +1038,10 @@
     </div>
   </section>
 
+  <!-- 
+    SERVICE AREA SECTION
+    Highlights geographical service range with list of locations
+  -->
   <section class="bg-primary-3 text-light">
     <div class="container">
       <div class="row justify-content-center text-center mb-4">
@@ -550,6 +1106,10 @@
     </div>
   </section>
 
+  <!-- 
+    FOOTER
+    Contains additional links, service areas, social media, and copyright
+  -->
   <footer class="pb-4 bg-primary-3 text-light" id="footer">
     <div class="container">
       <div class="row mb-5">
@@ -662,9 +1222,18 @@
     </div>
   </footer>
 
+  <!-- 
+    BACK TO TOP BUTTON
+    Floating button to return to top of page when scrolling down
+  -->
   <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll="" data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
     <img class="icon" src="images/arrow-up.svg" alt="arrow-up icon" data-inject-svg="">
   </a>
+  
+  <!-- 
+    JAVASCRIPT RESOURCES
+    Loads all required JavaScript libraries and scripts
+  -->
   <!-- Required vendor scripts (Do not remove) -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
@@ -713,6 +1282,7 @@
 
   <!-- Page JS dependencies -->
 
+  <!-- Cookie consent script for GDPR compliance -->
   <script src="js/cookieconsent.min.js" data-cfasync="false"></script>
   <script>
   window.cookieconsent.initialise({
