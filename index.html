@@ -188,7 +188,7 @@
           <a href="/products/birthday-pc-build/" class="card position-relative text-light border-0 d-flex justify-content-end overlay">
             <img src="images/intel.jpg" alt="Image" class="rounded">
             <div class="position-absolute p-3">
-              <h3 class="mb-0">Birthday PC builds</h3>
+              <h3 class="mb-0">Intel builds</h3>
               <span>Intel</span>
             </div>
           </a>
@@ -197,7 +197,7 @@
           <a href="/products/christmas-pc-build/" class="card position-relative text-light border-0 d-flex justify-content-end overlay">
             <img src="images/amd.jpg" alt="Image" class="rounded">
             <div class="position-absolute p-3">
-              <h3 class="mb-0">Christmas PC builds</h3>
+              <h3 class="mb-0">AMD Builds</h3>
               <span>AMD</span>
             </div>
           </a>
@@ -207,38 +207,58 @@
   </section>
 
   <!-- MODIFIED: Added bg-primary-3 and text-light classes -->
-  <section class="bg-primary-3 text-light">
-    <div class="container">
-      <div class="row mb-4 text-center">
-        <div class="col">
-          <h2 class="h1">When performance matters to you the most</h2>
+  import React from 'react';
+import { Monitor, Award, Video } from 'lucide-react';
+
+const GamingSection = () => {
+  return (
+    <div className="bg-slate-900 text-white py-16">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-indigo-500 bg-clip-text text-transparent">When Performance Matters Most</h2>
+          <div className="w-24 h-1 bg-indigo-500 mx-auto"></div>
         </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="icon-round bg-primary mx-auto mb-4">
-            <img class="icon bg-primary" src="images/lte-1.svg" alt="icon" data-inject-svg="">
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Casual Gamers Card */}
+          <div className="bg-slate-800 rounded-lg p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/20">
+            <div className="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Monitor size={32} className="text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-3 text-center">Casual Gamers</h3>
+            <p className="text-slate-300 text-center">Perfect for those who enjoy playing games in their leisure time, with enough power to handle popular titles at great settings.</p>
           </div>
-          <h4>Casual gamers</h4>
-          <p class="lead mx-xl-3">If you love playing games in your free time.</p>
+          
+          {/* Competitive Gamers Card */}
+          <div className="bg-slate-800 rounded-lg p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/20">
+            <div className="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Award size={32} className="text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-3 text-center">Competitive Gamers</h3>
+            <p className="text-slate-300 text-center">Engineered for serious gamers seeking the power and reliability needed to maintain peak performance in competitive environments.</p>
+          </div>
+          
+          {/* Streamers Card */}
+          <div className="bg-slate-800 rounded-lg p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20">
+            <div className="bg-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Video size={32} className="text-white" />
+            </div>
+            <h3 className="text-xl font-bold mb-3 text-center">Streamers & Content Creators</h3>
+            <p className="text-slate-300 text-center">Multi-tasking powerhouses designed for gamers who stream on Twitch, YouTube, or other platforms while maintaining smooth gameplay.</p>
+          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="icon-round bg-primary mx-auto mb-4">
-            <img class="icon bg-primary" src="images/mic.svg" alt="icon" data-inject-svg="">
-          </div>
-          <h4>Competitive gamers</h4>
-          <p class="lead mx-xl-3">For competitive gamers looking for power and reliability needed to maintain peak performance.</p>
-        </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="icon-round bg-primary mx-auto mb-4">
-            <img class="icon bg-primary" src="images/youtube.svg" alt="icon" data-inject-svg="">
-          </div>
-          <h4>For YouTubers/Steamers</h4>
-          <p class="lead mx-xl-3">Our custom-built gaming PCs aren't just for playing games but gamers who are looking to stream their gameplay on Twitch or social media.</p>
+        
+        <div className="mt-12 text-center">
+          <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+            Find Your Perfect Build
+          </button>
         </div>
       </div>
     </div>
-  </section>
+  );
+};
+
+export default GamingSection;
 
 
   <section class="has-divider bg-primary-3 text-light">
